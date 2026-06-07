@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
+  m_Name: Zac_01
+  m_EditorClassIdentifier: 
+  texto: "\xBFQ-qu\xE9?"
+  tipoNodo: 1
+  personaje: {fileID: 11400000, guid: c6619b6b9c7d5c74e8f5942669da1743, type: 2}
+  emocion: 0
+  opciones: []
+  siguiente: {fileID: 11400000, guid: 4b797f83b1998d34894e459f9b253fca, type: 2}

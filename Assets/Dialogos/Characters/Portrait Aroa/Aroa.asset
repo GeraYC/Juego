@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfa61780fe558644ebc7d41dd0164fad, type: 3}
+  m_Name: Aroa
+  m_EditorClassIdentifier: 
+  nombre: Aroa
+  neutral: {fileID: 21300000, guid: 245eeb8b3b2ddc34c9f845df37c6c85b, type: 3}
+  feliz: {fileID: 21300000, guid: 8db4e7bd168c5fc4b9a2aefd20bde1d9, type: 3}
+  enojado: {fileID: 21300000, guid: 477e539faa82e7e40a413415d64e1cd6, type: 3}
+  triste: {fileID: 21300000, guid: 70c47051088bb5d4ca7a7f1e4c7be151, type: 3}

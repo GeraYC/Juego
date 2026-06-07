@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
+  m_Name: AroaPost_01
+  m_EditorClassIdentifier: 
+  texto: "\xBFListo para continuar?"
+  tipoNodo: 0
+  personaje: {fileID: 11400000, guid: 10a10732984fb3442b65f6c23a05240d, type: 2}
+  emocion: 0
+  opciones:
+  - texto: Estoy listo
+    siguiente: {fileID: 11400000, guid: acf99e35ee8a49e4a97efa5ec0151f50, type: 2}
+    flagKey: Estado de Animo
+    flagValue: Bien
+  - texto: Aun no
+    siguiente: {fileID: 11400000, guid: 0d211d0af7cf72842960b1e97c3a4406, type: 2}
+    flagKey: Estado de Animo
+    flagValue: Mal
+  siguiente: {fileID: 0}

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cfa61780fe558644ebc7d41dd0164fad
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - neutral: {instanceID: 0}
+  - feliz: {instanceID: 0}
+  - enojado: {instanceID: 0}
+  - triste: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
