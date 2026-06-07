@@ -60,7 +60,7 @@
         "*.asset": "yaml",
         "*.meta": "yaml",
         "*.prefab": "yaml",
-        "*.unity": "yaml",
+        "*.unity": "yaml"
     },
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.patterns": {
@@ -68,5 +68,6 @@
         "*.slnx": "*.csproj"
     },
     "dotnet.defaultSolution": "Juego.slnx",
-    "dotnet.enableWorkspaceBasedDevelopment": false
+    "dotnet.enableWorkspaceBasedDevelopment": false,
+    "dotnet.preferCSharpExtension": true
 }
