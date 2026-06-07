@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
@@ -54,6 +55,12 @@ public class NPC : MonoBehaviour
 
     public void FinalizarDialogo()
     {
+        StartCoroutine(ReactivarNPC());
+    }
+
+    IEnumerator ReactivarNPC()
+    {
+        yield return null;
         dialogoActivo = false;
     }
 

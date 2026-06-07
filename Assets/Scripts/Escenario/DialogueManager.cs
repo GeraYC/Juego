@@ -223,7 +223,10 @@ public class DialogueManager : MonoBehaviour
 
         nodoActual = opcion.siguiente;
 
-        MostrarNodo();
+        if (nodoActual == null)
+            TerminarDialogo();
+        else
+            MostrarNodo();
     }
 
     void Avanzar()
