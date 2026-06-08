@@ -1,9 +1,10 @@
-﻿using UnityEngine;
+using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using System.Collections;
 
 public class DialogueManager : MonoBehaviour
+//Hhhh
 {
     [Header("Referencias")]
     public PlayerMovement playerMovement;
