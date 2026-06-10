@@ -12,6 +12,7 @@ public class FixedResolution : MonoBehaviour
 
     void Awake()
     {
+        //Hola
         cam = GetComponent<Camera>();
         AplicarAspecto();
     }
