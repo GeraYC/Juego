@@ -24,10 +24,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Scenes/Scene 3.unity
     guid: c5350d39860f3954b92e891f70afbbe2
   - enabled: 1
-    path: Assets/Scenes/Scenes/Scene 4 Notas.unity
+    path: Assets/Scenes/Scenes/Scene 5.unity
     guid: 261cd3c3559d52346923eb23b2ec0eed
   - enabled: 1
-    path: Assets/Scenes/Scenes/Scene 5.unity
+    path: Assets/Scenes/Scenes/Scene 4.unity
     guid: 6bd6f79f22572054d921ca972c6562af
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
