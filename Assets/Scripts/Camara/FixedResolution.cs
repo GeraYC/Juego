@@ -3,6 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(Camera))]
 public class FixedResolution : MonoBehaviour
 {
+    //blejjj
     [Tooltip("Aspecto objetivo")]
     public float aspectoObjetivo = 16f / 9f;
 
