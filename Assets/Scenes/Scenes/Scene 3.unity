@@ -951,7 +951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4df605a481df90e4c90e5988b730cb36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: Puerta 4 Sce 3
+  id: Puerta 5 Sce 3
 --- !u!4 &544644083
 Transform:
   m_ObjectHideFlags: 0
@@ -961,7 +961,7 @@ Transform:
   m_GameObject: {fileID: 544644081}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 150.6, y: 15.17, z: 264.6}
+  m_LocalPosition: {x: 145.42, y: 17.08, z: 267.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1612,10 +1612,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1093457906}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 40, y: -40}
-  m_SizeDelta: {x: 300, y: 50}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 200, y: -150}
+  m_SizeDelta: {x: -400, y: -300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1228023144
 MonoBehaviour:
@@ -1664,8 +1664,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2550,7 +2550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   escenaDestino: Scene 2
-  puertaDestinoID: Puerta 3 Sce 2
+  puertaDestinoID: Puerta 3 Sce 3
 --- !u!65 &1595965831
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3122,8 +3122,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1aa2056131bbdb43b9441157123cc6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escenaDestino: Scene 3
-  puertaDestinoID: Puerta 5 Sce 5
+  escenaDestino: Scene 4
+  puertaDestinoID: Puerta 6 Sce 4
 --- !u!65 &2023008992
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3154,7 +3154,7 @@ Transform:
   m_GameObject: {fileID: 2023008990}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 97.11999, y: 17.7, z: 332.14}
+  m_LocalPosition: {x: 142.84, y: 19.62, z: 267}
   m_LocalScale: {x: 1.0390952, y: 4.123106, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
