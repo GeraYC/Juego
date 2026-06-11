@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody))]
@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour //pito pal yerestin
 
     public bool puedeMoverse = true;
 
+    public bool capturado = false;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -26,7 +28,7 @@ public class PlayerMovement : MonoBehaviour //pito pal yerestin
 
     void Update()
     {
-        if (!puedeMoverse)
+        if (!puedeMoverse || capturado)
         {
             direccion = Vector3.zero;
             return;
@@ -58,7 +60,7 @@ public class PlayerMovement : MonoBehaviour //pito pal yerestin
 
     void FixedUpdate()
     {
-        if (!puedeMoverse)
+       if (!puedeMoverse || capturado)
         {
             rb.linearVelocity = new Vector3(0f, rb.linearVelocity.y, 0f);
             return;
