@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour //pito pal yerestin
     private float ultimoX;
     private float ultimoZ;
 
-   
+   //Holaa
     public bool puedeMoverse = true;
 
     public bool capturado = false;
