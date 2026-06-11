@@ -12,8 +12,7 @@ public class PlayerMovement : MonoBehaviour //pito pal yerestin
     private float ultimoX;
     private float ultimoZ;
 
-    public AudioSource pasos;
-
+   
     public bool puedeMoverse = true;
 
     public bool capturado = false;
@@ -57,21 +56,6 @@ public class PlayerMovement : MonoBehaviour //pito pal yerestin
 
         animator.SetFloat("MoveX", ultimoX);
         animator.SetFloat("MoveZ", ultimoZ);
-
-        if(Input.GetButtonDown("Horizontal"))
-        {
-           pasos.Play();
-        }
-
-        if(Input.GetButtonDown("Vertical"))
-        {
-            pasos.Play();
-        }
-
-        if(Input.GetButtonDown("Horizontal"))
-        {
-            pasos.Play();
-        }
 
 
 

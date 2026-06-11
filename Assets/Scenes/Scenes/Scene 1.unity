@@ -1381,7 +1381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af9d02c03bfebd543be132cea766c867, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerMovement: {fileID: 0}
+  playerMovement: {fileID: 121992498}
   panel: {fileID: 205310877}
   txtNombre: {fileID: 911056335}
   txtDialogo: {fileID: 1592540537}

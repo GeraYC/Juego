@@ -5,11 +5,18 @@ public class EnemyChase : MonoBehaviour
     public Transform player;
     public float speed = 3f;
 
-    private CaptureManager captureManager;
+    [HideInInspector]
+    public float captureTime = 3f;
 
+    [HideInInspector]
+    public int escapePresses = 20;
+
+   private CaptureSystem captureSystem;
     private void Awake()
 {
-    captureManager = GetComponent<CaptureManager>();
+    captureSystem = FindFirstObjectByType<CaptureSystem>();
+
+    Debug.Log("CaptureSystem encontrado: " + captureSystem);
 }
 
     private bool alreadyCaptured;
@@ -36,15 +43,20 @@ public class EnemyChase : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other)
-    {
-        if (alreadyCaptured)
-            return;
+{
+    if (alreadyCaptured)
+        return;
 
-        if (other.CompareTag("Player"))
-        {
-            alreadyCaptured = true;
+    if (!other.CompareTag("Player"))
+        return;
 
-            captureManager.StartCapture();
-        }
-    }
+    // Si ya hay una captura activa, no hacer nada
+    if (captureSystem.IsCapturing)
+        return;
+
+    alreadyCaptured = true;
+
+    captureSystem.StartCapture(this);
+}
+    
 }

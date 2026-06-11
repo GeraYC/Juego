@@ -3,7 +3,7 @@ using UnityEngine;
 
 
 
-public class CaptureManager : MonoBehaviour
+public class CaptureSystem : MonoBehaviour
 {
     public GameObject capturePanel;
 
@@ -20,18 +20,45 @@ public class CaptureManager : MonoBehaviour
     private float tiempoRestante;
 
     private bool capturando;
+
+    
+
     public int pulsacionesNecesarias = 20;
 
     private int pulsacionesActuales;
 
+    private EnemyChase currentEnemy;
+
+    public bool IsCapturing
+{
+    get { return capturando; }
+}
+
     
 
 
-    public void StartCapture()
+    public void StartCapture(EnemyChase enemy)
 {
+    EnemyChase[] enemies =
+        FindObjectsByType<EnemyChase>(
+            FindObjectsSortMode.None
+        );
+
+    foreach (EnemyChase e in enemies)
+    {
+        if (e != enemy)
+        {
+            Destroy(e.gameObject);
+        }
+    }
+
+    currentEnemy = enemy;
+
     player.capturado = true;
 
-    tiempoRestante = tiempoMaximo;
+    tiempoRestante = enemy.captureTime;
+
+    pulsacionesNecesarias = enemy.escapePresses;
 
     pulsacionesActuales = 0;
 
@@ -41,7 +68,6 @@ public class CaptureManager : MonoBehaviour
 
     Debug.Log("Jugador capturado");
 }
-
 private void Update()
 {
     if (!capturando)
@@ -113,9 +139,13 @@ void Escape()
 
     capturePanel.SetActive(false);
 
+    if(currentEnemy != null)
+    {
+        Destroy(currentEnemy.gameObject);
+    }
+
     Debug.Log("ESCAPÓ");
 }
-
 void GameOver()
 {
     capturando = false;
