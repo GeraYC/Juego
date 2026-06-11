@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     private float ultimoX;
     private float ultimoZ;
 
+    public AudioSource pasos;
+
     public bool puedeMoverse = true;
 
     void Awake()
@@ -53,6 +55,23 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("MoveX", ultimoX);
         animator.SetFloat("MoveZ", ultimoZ);
+
+       // if(Input.GetButtonDown("Horizontal"))
+       // {
+       //     pasos.Play();
+        }
+
+        if(Input.GetButtonDown("Vertical"))
+        {
+            pasos.Play();
+        }
+
+        if(Input.GetButtonDown("Horizontal")))
+        {
+            pasos.Play();
+        }
+
+
 
     }
 
