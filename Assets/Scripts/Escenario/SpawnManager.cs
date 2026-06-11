@@ -19,48 +19,68 @@ public class SpawnManager : MonoBehaviour
     }
 
     void SpawnPlayer()
-    {
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
+{
+    GameObject player = GameObject.FindGameObjectWithTag("Player");
 
-        if (player == null)
+    if (player == null)
+    {
+        Debug.LogError("No hay Player");
+        return;
+    }
+
+    // AUTO CREAR GAMEMANAGER
+    if (GameManager.instancia == null)
+    {
+        GameObject gm = new GameObject("GameManager");
+        gm.AddComponent<GameManager>();
+
+        Debug.Log("GameManager creado automáticamente");
+    }
+
+    // CARGAR PARTIDA
+    if (GameManager.instancia.cargandoPartida)
+    {
+        player.transform.position =
+            GameManager.instancia.loadedPosition;
+
+        GameManager.instancia.cargandoPartida = false;
+
+        Debug.Log("Posición cargada desde Save");
+
+        return;
+    }
+
+    string id = GameManager.instancia.puntoSpawn;
+
+    Debug.Log("Spawn ID usado: " + id);
+
+    SpawnPoint[] puntos =
+        FindObjectsByType<SpawnPoint>(
+            FindObjectsSortMode.None
+        );
+
+    foreach (SpawnPoint p in puntos)
+    {
+        if (!string.IsNullOrEmpty(id) && p.id == id)
         {
-            Debug.LogError("No hay Player");
+            player.transform.position =
+                p.transform.position;
+
             return;
         }
-
-        // AUTO CREAR GAMEMANAGER
-        if (GameManager.instancia == null)
-        {
-            GameObject gm = new GameObject("GameManager");
-            gm.AddComponent<GameManager>();
-
-            Debug.Log("GameManager creado automáticamente");
-        }
-
-        string id = GameManager.instancia.puntoSpawn;
-
-        Debug.Log("Spawn ID usado: " + id);
-
-        SpawnPoint[] puntos = FindObjectsByType<SpawnPoint>(FindObjectsSortMode.None);
-
-        foreach (SpawnPoint p in puntos)
-        {
-            if (!string.IsNullOrEmpty(id) && p.id == id)
-            {
-                player.transform.position = p.transform.position;
-                return;
-            }
-        }
-
-        foreach (SpawnPoint p in puntos)
-        {
-            if (p.id == "Start")
-            {
-                player.transform.position = p.transform.position;
-                return;
-            }
-        }
-
-        Debug.LogWarning("No hay SpawnPoint válido");
     }
+
+    foreach (SpawnPoint p in puntos)
+    {
+        if (p.id == "Start")
+        {
+            player.transform.position =
+                p.transform.position;
+
+            return;
+        }
+    }
+
+    Debug.LogWarning("No hay SpawnPoint válido");
+}
 }

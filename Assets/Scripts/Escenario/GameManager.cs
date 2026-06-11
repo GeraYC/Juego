@@ -7,13 +7,19 @@ public class GameManager : MonoBehaviour
 
     public string puntoSpawn;
 
-    public Dictionary<string, string> decisiones = new Dictionary<string, string>();
+    public bool cargandoPartida;
+
+    public Vector3 loadedPosition;
+
+    public Dictionary<string,string> decisiones =
+        new Dictionary<string,string>();
 
     private void Awake()
     {
-        if (instancia == null)
+        if(instancia == null)
         {
             instancia = this;
+
             DontDestroyOnLoad(gameObject);
         }
         else
@@ -21,4 +27,22 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    public void SaveGame()
+    {
+        SaveSystem.SaveGame();
+    }
+
+    void Update()
+{
+    if (Input.GetKeyDown(KeyCode.F5))
+    {
+        SaveGame();
+    }
+
+    if (Input.GetKeyDown(KeyCode.F9))
+{
+    SaveSystem.LoadSavedGame();
+}
+}
 }
