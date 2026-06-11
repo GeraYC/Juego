@@ -344,7 +344,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 10, y: 2, z: 2}
+  m_Size: {x: 10, y: 2, z: 1.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &216840845
 Transform:
@@ -355,7 +355,7 @@ Transform:
   m_GameObject: {fileID: 216840842}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -772.1, y: 8.9, z: 491}
+  m_LocalPosition: {x: -772.1, y: 8.9, z: 518.94}
   m_LocalScale: {x: 0.97335696, y: 4.123106, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -390,7 +390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af9d02c03bfebd543be132cea766c867, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerMovement: {fileID: 0}
+  playerMovement: {fileID: 1128036953}
   panel: {fileID: 2135378318}
   txtNombre: {fileID: 1322201777}
   txtDialogo: {fileID: 595090580}
@@ -589,7 +589,7 @@ Transform:
   m_GameObject: {fileID: 507121187}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -781.97, y: 5.51, z: 480.68}
+  m_LocalPosition: {x: -771.8, y: 6.43, z: 514.87}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1271,6 +1271,8 @@ GameObject:
   - component: {fileID: 929981651}
   - component: {fileID: 929981650}
   - component: {fileID: 929981653}
+  - component: {fileID: 929981655}
+  - component: {fileID: 929981654}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1319,7 +1321,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 20
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1345,13 +1347,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 929981649}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -771.8, y: 9.9, z: 555.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &929981653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1396,6 +1398,34 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &929981654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929981649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c64dd162ca51b044497cd552e78b0c22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objetivo: {fileID: 1128036957}
+  offset: {x: 0.28, y: 3.47, z: 39.44}
+  velocidad: 10
+--- !u!114 &929981655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929981649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f23c062ba7516b4b84cd2d69acdba90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aspectoObjetivo: 2
 --- !u!1 &1128036951
 GameObject:
   m_ObjectHideFlags: 0
@@ -1566,7 +1596,7 @@ Transform:
   m_GameObject: {fileID: 1128036951}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -772.09, y: 6.43, z: 497.01}
+  m_LocalPosition: {x: -772.09, y: 6.43, z: 515.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2253,7 +2283,7 @@ Transform:
   m_GameObject: {fileID: 1705719700}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -772.13, y: 4.26, z: 490.96}
+  m_LocalPosition: {x: -772.13, y: 4.32, z: 519.04}
   m_LocalScale: {x: 1, y: 1, z: 10.051385}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2630,12 +2660,12 @@ SceneRoots:
   - {fileID: 1621078789}
   - {fileID: 43547983}
   - {fileID: 1705719704}
+  - {fileID: 1128036957}
+  - {fileID: 2082399247}
+  - {fileID: 507121189}
   - {fileID: 2072868347}
   - {fileID: 216840845}
   - {fileID: 1217916971}
-  - {fileID: 1128036957}
-  - {fileID: 2082399247}
   - {fileID: 1836078063}
   - {fileID: 701957388}
-  - {fileID: 507121189}
   - {fileID: 222783651}
