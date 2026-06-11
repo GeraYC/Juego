@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Hans_8.1
   m_EditorClassIdentifier: 
-  texto: 
+  texto: "\xBFQui\xE9n eres y qu\xE9 estas haciendo aqu\xED?"
   tipoNodo: 0
-  personaje: {fileID: 0}
+  personaje: {fileID: 11400000, guid: b54a4395748416c42beb5016661a1580, type: 2}
   emocion: 0
   opciones: []
-  siguiente: {fileID: 0}
+  siguiente: {fileID: 11400000, guid: d94d7e1218968d745b4c7fa2fc477817, type: 2}

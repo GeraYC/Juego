@@ -10,11 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
-  m_Name: Hans_8.4
+  m_Name: Hans_8.5-1.4
   m_EditorClassIdentifier: 
-  texto: "Oh, as\xED que la conoces..."
+  texto: "Despu\xE9s... No hubo mas para intentar salir...\nAs\xED que me asente
+    aqu\xED, tratando de mantenerme ocupado"
   tipoNodo: 0
   personaje: {fileID: 11400000, guid: b54a4395748416c42beb5016661a1580, type: 2}
   emocion: 0
-  opciones: []
+  opciones:
+  - texto: "\xBFMantenerte ocupado?"
+    siguiente: {fileID: 11400000, guid: 9a5ef7510bd1ae541a6f2a36b97e7950, type: 2}
+    flagKey: 
+    flagValue: 
+  - texto: "\xBFTe rendiste tan f\xE1cil?"
+    siguiente: {fileID: 11400000, guid: bc27be11ed2c69043887518bf36aef3b, type: 2}
+    flagKey: 
+    flagValue: 
   siguiente: {fileID: 0}

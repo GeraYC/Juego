@@ -81,3 +81,4 @@ public class NPC : MonoBehaviour
             jugadorCerca = false; //me voy a pelear con este programa alv
     }
 } //no me dejaaaaa
+//ñiñiñi poner mensajes a lo pendejo

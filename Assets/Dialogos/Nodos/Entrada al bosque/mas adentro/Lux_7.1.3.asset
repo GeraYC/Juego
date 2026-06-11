@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Lux_7.1.3
   m_EditorClassIdentifier: 
-  texto: 
+  texto: Bueno... eso si logras continuar, la oscuridad no se detiene por nadie...
   tipoNodo: 0
-  personaje: {fileID: 0}
+  personaje: {fileID: 11400000, guid: 564e06cbb907a434e84c24424466df52, type: 2}
   emocion: 0
   opciones: []
-  siguiente: {fileID: 0}
+  siguiente: {fileID: 11400000, guid: 21a6c5a3fab1d8b4fb20d9ef87a8ab32, type: 2}

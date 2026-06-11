@@ -17,4 +17,4 @@ MonoBehaviour:
   personaje: {fileID: 11400000, guid: c6619b6b9c7d5c74e8f5942669da1743, type: 2}
   emocion: 0
   opciones: []
-  siguiente: {fileID: 0}
+  siguiente: {fileID: 11400000, guid: 9909e2221da31b141adb5209eed0d071, type: 2}

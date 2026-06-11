@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
-  m_Name: Zac_8.3
+  m_Name: Hans_8.5-2.5
   m_EditorClassIdentifier: 
-  texto: "Aroa dijo que podr\xEDa encontrarte aqu\xED"
-  tipoNodo: 1
-  personaje: {fileID: 11400000, guid: c6619b6b9c7d5c74e8f5942669da1743, type: 2}
+  texto: 
+  tipoNodo: 0
+  personaje: {fileID: 0}
   emocion: 0
   opciones: []
-  siguiente: {fileID: 11400000, guid: 7285322cd5ed9814da311f18d073531f, type: 2}
+  siguiente: {fileID: 0}
