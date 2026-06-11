@@ -319,7 +319,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &297598909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1026,6 +1026,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 8
   puedeMoverse: 1
+  capturado: 0
 --- !u!95 &552247568
 Animator:
   serializedVersion: 7
