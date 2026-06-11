@@ -58,9 +58,9 @@ public class PlayerMovement : MonoBehaviour //pito pal yerestin
         animator.SetFloat("MoveX", ultimoX);
         animator.SetFloat("MoveZ", ultimoZ);
 
-       // if(Input.GetButtonDown("Horizontal"))
-       // {
-       //     pasos.Play();
+        if(Input.GetButtonDown("Horizontal"))
+        {
+           pasos.Play();
         }
 
         if(Input.GetButtonDown("Vertical"))
@@ -68,7 +68,7 @@ public class PlayerMovement : MonoBehaviour //pito pal yerestin
             pasos.Play();
         }
 
-        if(Input.GetButtonDown("Horizontal")))
+        if(Input.GetButtonDown("Horizontal"))
         {
             pasos.Play();
         }
@@ -92,3 +92,4 @@ public class PlayerMovement : MonoBehaviour //pito pal yerestin
         );
     }
 }
+//chingue su madre el america

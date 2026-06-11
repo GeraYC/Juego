@@ -10,19 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
-  m_Name: Aroa_4.11
+  m_Name: Narrador_5.1
   m_EditorClassIdentifier: 
-  texto: "Av\xEDsame cuando est\xE9s listo para partir"
-  tipoNodo: 0
-  personaje: {fileID: 11400000, guid: 10a10732984fb3442b65f6c23a05240d, type: 2}
+  texto: Estas a punto de cruzar el puente, el viento parece zumbar
+  tipoNodo: 2
+  personaje: {fileID: 0}
   emocion: 0
-  opciones:
-  - texto: Vamos
-    siguiente: {fileID: 0}
-    flagKey: 
-    flagValue: 
-  - texto: Espea un momento
-    siguiente: {fileID: 0}
-    flagKey: 
-    flagValue: 
-  siguiente: {fileID: 0}
+  opciones: []
+  siguiente: {fileID: 11400000, guid: bef323c43feab324fb7c11e655381ff9, type: 2}

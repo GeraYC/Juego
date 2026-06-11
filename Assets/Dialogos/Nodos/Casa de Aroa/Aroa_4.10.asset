@@ -25,7 +25,7 @@ MonoBehaviour:
     flagKey: 
     flagValue: 
   - texto: Entiendo, el miedo es lo que nos ayuda a sobrevivir
-    siguiente: {fileID: 0}
+    siguiente: {fileID: 11400000, guid: 5db64ef79e51d594eafde6f3063ea1ae, type: 2}
     flagKey: 
     flagValue: 
   siguiente: {fileID: 0}
