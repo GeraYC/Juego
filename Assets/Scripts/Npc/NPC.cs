@@ -80,4 +80,4 @@ public class NPC : MonoBehaviour
         if (other.CompareTag("Player"))
             jugadorCerca = false;
     }
-}
+} //no me dejaaaaa

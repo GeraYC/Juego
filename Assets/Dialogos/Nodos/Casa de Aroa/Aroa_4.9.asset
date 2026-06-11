@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Aroa_4.9
   m_EditorClassIdentifier: 
-  texto: 
+  texto: "Debes de ir al bosque si quieres encontrarlo, ah\xED puede que te cruces
+    con Hans, el puede ayudarte"
   tipoNodo: 0
-  personaje: {fileID: 0}
+  personaje: {fileID: 11400000, guid: 10a10732984fb3442b65f6c23a05240d, type: 2}
   emocion: 0
   opciones: []
-  siguiente: {fileID: 0}
+  siguiente: {fileID: 11400000, guid: 2246f4970ee44b44d8b1eba868a1cef6, type: 2}

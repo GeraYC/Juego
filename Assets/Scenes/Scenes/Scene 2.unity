@@ -228,6 +228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 8
   puedeMoverse: 1
+  capturado: 0
 --- !u!54 &133806777
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1403,7 +1404,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1018384975
 MonoBehaviour:
   m_ObjectHideFlags: 0

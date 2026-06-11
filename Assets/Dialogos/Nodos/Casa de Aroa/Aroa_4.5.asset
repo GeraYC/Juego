@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Aroa_4.5
   m_EditorClassIdentifier: 
-  texto: 
+  texto: "Uh... \xC9l, por lo que se, se llama Luciel, no sabemos quien o que es,
+    pero es quien nos encerr\xF3 aqu\xED y tambi\xE9n el que nos transfromo en...
+    esto."
   tipoNodo: 0
-  personaje: {fileID: 0}
-  emocion: 0
+  personaje: {fileID: 11400000, guid: 10a10732984fb3442b65f6c23a05240d, type: 2}
+  emocion: 3
   opciones: []
-  siguiente: {fileID: 0}
+  siguiente: {fileID: 11400000, guid: 656aa230c05a7a1408ed624bdc0a0d4f, type: 2}

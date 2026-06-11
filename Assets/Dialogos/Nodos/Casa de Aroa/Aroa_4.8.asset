@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Aroa_4.8
   m_EditorClassIdentifier: 
-  texto: 
+  texto: "Tendrias que buscarlo a el, y r\xE1pido, para que puedas quitarselo.\nPero
+    encontrarlo no sera f\xE1cil."
   tipoNodo: 0
-  personaje: {fileID: 0}
+  personaje: {fileID: 11400000, guid: 10a10732984fb3442b65f6c23a05240d, type: 2}
   emocion: 0
   opciones: []
-  siguiente: {fileID: 0}
+  siguiente: {fileID: 11400000, guid: c589153d5ebca7644be6e4b65e43abca, type: 2}

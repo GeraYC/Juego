@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Aroa_4.4
   m_EditorClassIdentifier: 
-  texto: 
+  texto: "Es una clase de... \xBFDimensi\xF3n alterna?, no estoy muy segura, no me
+    he dedicado a investigar este lugar"
   tipoNodo: 0
-  personaje: {fileID: 0}
+  personaje: {fileID: 11400000, guid: 10a10732984fb3442b65f6c23a05240d, type: 2}
   emocion: 0
   opciones: []
-  siguiente: {fileID: 0}
+  siguiente: {fileID: 11400000, guid: 53c5c64934d0eff4d8fc5fe91aaf623a, type: 2}
