@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "NuevoPersonaje", menuName = "Dialogos/Personaje")]
-public class CharacterData : ScriptableObject
+public class CharacterData : ScriptableObject //me voy a pegar un tiro
 {
     public string nombre;
 
@@ -11,4 +11,4 @@ public class CharacterData : ScriptableObject
     public Sprite enojado;
     public Sprite triste;
 
-}
+} //piñacate

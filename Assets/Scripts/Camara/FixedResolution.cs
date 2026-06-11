@@ -4,7 +4,7 @@ using UnityEngine;
 public class FixedResolution : MonoBehaviour
 {
     //blejjj
-    [Tooltip("Aspecto objetivo")]
+    [Tooltip("Aspecto objetivo")]//hola
     public float aspectoObjetivo = 16f / 9f;
 
     private Camera cam;
@@ -13,6 +13,7 @@ public class FixedResolution : MonoBehaviour
 
     void Awake()
     {
+        //Hola
         cam = GetComponent<Camera>();
         AplicarAspecto();
     }
