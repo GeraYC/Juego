@@ -4,13 +4,15 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerMovement : MonoBehaviour //pito pal yerestin
 {
-    public float velocidad = 5f; //materia de mierda
+    public float velocidad = 5f; //Wenas
 
     private Rigidbody rb;
     private Animator animator;
     private Vector3 direccion;
     private float ultimoX;
     private float ultimoZ;
+
+    public AudioSource pasos;
 
     public bool puedeMoverse = true;
 
@@ -55,6 +57,23 @@ public class PlayerMovement : MonoBehaviour //pito pal yerestin
 
         animator.SetFloat("MoveX", ultimoX);
         animator.SetFloat("MoveZ", ultimoZ);
+
+       // if(Input.GetButtonDown("Horizontal"))
+       // {
+       //     pasos.Play();
+        }
+
+        if(Input.GetButtonDown("Vertical"))
+        {
+            pasos.Play();
+        }
+
+        if(Input.GetButtonDown("Horizontal")))
+        {
+            pasos.Play();
+        }
+
+
 
     }
 

@@ -766,6 +766,9 @@ PrefabInstance:
     - {fileID: -9079799955711531947, guid: ed91f71dc9919f645b7c5ea95dd1d4fa, type: 3}
     - {fileID: 7553881725577380796, guid: ed91f71dc9919f645b7c5ea95dd1d4fa, type: 3}
     - {fileID: -7848927352443414099, guid: ed91f71dc9919f645b7c5ea95dd1d4fa, type: 3}
+    - {fileID: 186498537389410405, guid: ed91f71dc9919f645b7c5ea95dd1d4fa, type: 3}
+    - {fileID: 1335030945630829781, guid: ed91f71dc9919f645b7c5ea95dd1d4fa, type: 3}
+    - {fileID: 225765488119210694, guid: ed91f71dc9919f645b7c5ea95dd1d4fa, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed91f71dc9919f645b7c5ea95dd1d4fa, type: 3}
@@ -974,8 +977,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -235, y: 25}
-  m_SizeDelta: {x: -570, y: -250}
+  m_AnchoredPosition: {x: -235, y: 55}
+  m_SizeDelta: {x: -570, y: -190}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &415097428
 MonoBehaviour:

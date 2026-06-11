@@ -24,11 +24,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Scenes/Scene 3.unity
     guid: c5350d39860f3954b92e891f70afbbe2
   - enabled: 1
+    path: Assets/Scenes/Scenes/Scene 4.unity
+    guid: 6bd6f79f22572054d921ca972c6562af
+  - enabled: 1
     path: Assets/Scenes/Scenes/Scene 5.unity
     guid: 261cd3c3559d52346923eb23b2ec0eed
   - enabled: 1
-    path: Assets/Scenes/Scenes/Scene 4.unity
-    guid: 6bd6f79f22572054d921ca972c6562af
+    path: Assets/Scenes/Scenes/Scene 6.unity
+    guid: 9a6692e837380a94eacdf956d919f396
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Cuarto de Notas.unity
+    guid: 1d590eee7aabcca4b9267ff3c2dabe96
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

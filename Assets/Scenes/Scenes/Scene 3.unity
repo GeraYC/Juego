@@ -1068,6 +1068,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 8
   puedeMoverse: 1
+  capturado: 0
 --- !u!54 &781051280
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1436,8 +1437,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -235, y: 25}
-  m_SizeDelta: {x: -570, y: -250}
+  m_AnchoredPosition: {x: -235, y: 55}
+  m_SizeDelta: {x: -570, y: -190}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &987745240
 CanvasRenderer:
