@@ -11,4 +11,4 @@ public class CharacterData : ScriptableObject //me voy a pegar un tiro
     public Sprite enojado;
     public Sprite triste;
 
-}
+} //piñacate
