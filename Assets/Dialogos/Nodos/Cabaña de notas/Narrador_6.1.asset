@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Narrador_6.1
   m_EditorClassIdentifier: 
-  texto: 
-  tipoNodo: 0
+  texto: Lux desaparece frente a tus ojos
+  tipoNodo: 2
   personaje: {fileID: 0}
   emocion: 0
   opciones: []

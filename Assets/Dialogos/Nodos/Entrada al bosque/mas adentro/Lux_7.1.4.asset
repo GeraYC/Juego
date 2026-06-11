@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
-  m_Name: Lux_6.4-2 1
+  m_Name: Lux_7.1.4
   m_EditorClassIdentifier: 
-  texto: "Y m\xE1s porque no estas acostumbrado a tu nueva forma"
+  texto: 
   tipoNodo: 0
-  personaje: {fileID: 11400000, guid: 564e06cbb907a434e84c24424466df52, type: 2}
+  personaje: {fileID: 0}
   emocion: 0
   opciones: []
-  siguiente: {fileID: 11400000, guid: a69f2f3a3717caa43a9acd988a6536bb, type: 2}
+  siguiente: {fileID: 0}
