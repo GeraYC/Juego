@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerMovement : MonoBehaviour //pito pal yerestin
 {
-    public float velocidad = 5f; //materia de mierda
+    public float velocidad = 5f; //Wenas
 
     private Rigidbody rb;
     private Animator animator;
