@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
+  m_Name: Lux_6.4
+  m_EditorClassIdentifier: 
+  texto: "Deber\xEDas quedarte resguardado en una casita, lejos del bosque, tal y
+    como lo hace la peque\xF1a Aroa"
+  tipoNodo: 0
+  personaje: {fileID: 11400000, guid: 564e06cbb907a434e84c24424466df52, type: 2}
+  emocion: 0
+  opciones:
+  - texto: "\xBFPor qu\xE9 deber\xEDa de hacerte caso?"
+    siguiente: {fileID: 11400000, guid: 6a45d6fd0a3c3c745b2d33298143b5e2, type: 2}
+    flagKey: 
+    flagValue: 
+  - texto: "\xBFEs muy... peligroso?"
+    siguiente: {fileID: 11400000, guid: 86d1f742d6894634d82c5d1a144eaf74, type: 2}
+    flagKey: 
+    flagValue: 
+  - texto: "\xBFQu\xE9 es lo que podr\xEDa pasarme?"
+    siguiente: {fileID: 11400000, guid: 6e696c3c2f4caeb4786f5d04421a57fe, type: 2}
+    flagKey: 
+    flagValue: 
+  siguiente: {fileID: 0}
