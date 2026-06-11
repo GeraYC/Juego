@@ -78,6 +78,6 @@ public class NPC : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
-            jugadorCerca = false;
+            jugadorCerca = false; //me voy a pelear con este programa alv
     }
-}
+} //no me dejaaaaa

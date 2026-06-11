@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Aroa_3.2
   m_EditorClassIdentifier: 
-  texto: Creo que podemos moverlas para despejar el co
+  texto: Creo que podemos moverlas para despejar el camino
   tipoNodo: 0
-  personaje: {fileID: 0}
+  personaje: {fileID: 11400000, guid: 10a10732984fb3442b65f6c23a05240d, type: 2}
   emocion: 0
   opciones: []
   siguiente: {fileID: 0}

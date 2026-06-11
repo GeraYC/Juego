@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
+  m_Name: Nota_7
+  m_EditorClassIdentifier: 
+  texto: "Dia *ilegible*\n\n\xA1\xA1\xBFPOR QU\xC9 NO PUEDO SALIR?!!\nSi estoy aqu\xED,
+    no puedo hacerlos pagar, no puedo humillarlos... no puedo torturarlos como ellos
+    hicieron conmigo... debe de haber una forma"
+  tipoNodo: 2
+  personaje: {fileID: 0}
+  emocion: 0
+  opciones: []
+  siguiente: {fileID: 0}

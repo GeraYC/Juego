@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Zac_4.6
   m_EditorClassIdentifier: 
-  texto: 
-  tipoNodo: 0
-  personaje: {fileID: 0}
+  texto: "\xBFPor qu\xE9?"
+  tipoNodo: 1
+  personaje: {fileID: 11400000, guid: c6619b6b9c7d5c74e8f5942669da1743, type: 2}
   emocion: 0
   opciones: []
-  siguiente: {fileID: 0}
+  siguiente: {fileID: 11400000, guid: 7bce470f1fb62a34c94ecdbbe8bb4cdb, type: 2}
