@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
+  m_Name: Lux_7.1
+  m_EditorClassIdentifier: 
+  texto: "No deberuas de estar aqu\xED, es demasiado peligroso para ti, peque\xF1o."
+  tipoNodo: 0
+  personaje: {fileID: 11400000, guid: 564e06cbb907a434e84c24424466df52, type: 2}
+  emocion: 0
+  opciones: []
+  siguiente: {fileID: 11400000, guid: e35a54b4f25914942a4aa70d05574f00, type: 2}
