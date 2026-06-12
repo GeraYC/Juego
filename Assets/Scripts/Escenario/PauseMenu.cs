@@ -23,20 +23,27 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
-    public void Pausar()
-    {
-        menuPausa.SetActive(true);
-        Time.timeScale = 0f;
-        pausado = true;
-    }
+   public void Pausar()
+{
+    menuPausa.SetActive(true);
+
+    menuPausa.transform.SetAsLastSibling();
+
+    Time.timeScale = 0f;
+
+    pausado = true;
+}
 
     public void Reanudar()
-    {
-        menuPausa.SetActive(false);
-        Time.timeScale = 1f;
-        pausado = false;
-    }
+{
+    Debug.Log("REANUDAR PRESIONADO");
 
+    menuPausa.SetActive(false);
+
+    Time.timeScale = 1f;
+
+    pausado = false;
+}
     public void Guardar()
     {
         GameManager.instancia.SaveGame();
