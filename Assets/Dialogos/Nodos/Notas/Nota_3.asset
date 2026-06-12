@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Nota_3
   m_EditorClassIdentifier: 
-  texto: "Dia 16\n\n\xA1He descubierto la magia!\nPuedo crear cosas, soy fuerte,
-    soy poderoso, es lo mejor que me ha pasado en la vida."
+  texto: "Dia 16\n\xA1He descubierto la magia! Puedo crear cosas, soy fuerte, soy
+    poderoso, es lo mejor que me ha pasado en la vida."
   tipoNodo: 2
   personaje: {fileID: 0}
   emocion: 0

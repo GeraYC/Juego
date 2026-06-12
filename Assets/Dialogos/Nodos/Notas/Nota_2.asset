@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Nota_2
   m_EditorClassIdentifier: 
-  texto: "Dia 7\n\nEs extra\xF1o este lugar, parece estar solo..."
+  texto: "Dia 7\nEs extra\xF1o este lugar, parece estar solo..."
   tipoNodo: 2
   personaje: {fileID: 0}
   emocion: 0

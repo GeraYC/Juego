@@ -5964,8 +5964,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcID: Narrador
-  dialogoBase: {fileID: 11400000, guid: b21122819617ff643a261d3ce21ce4ec, type: 2}
-  dialogoDespues: {fileID: 11400000, guid: b21122819617ff643a261d3ce21ce4ec, type: 2}
+  dialogoBase: {fileID: 11400000, guid: 415d5431fd591864082328b6e29b9ee1, type: 2}
+  dialogoDespues: {fileID: 11400000, guid: 415d5431fd591864082328b6e29b9ee1, type: 2}
 --- !u!65 &4720910701848260904
 BoxCollider:
   m_ObjectHideFlags: 0

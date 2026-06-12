@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: NotaExtra_1 7
   m_EditorClassIdentifier: 
-  texto: AAAAAAAAAAAAHHHHH
+  texto: AAAAAAAAAAAAHHHHH por favor....  D E J A M E   S A L I R
   tipoNodo: 2
   personaje: {fileID: 0}
   emocion: 0

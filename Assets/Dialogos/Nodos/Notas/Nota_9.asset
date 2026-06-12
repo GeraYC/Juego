@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Nota_9
   m_EditorClassIdentifier: 
-  texto: "*ilegible*\n\nFUNCION\xD3\nPero fue tan pat\xE9tico, sucuerpo no soport\xF3,
-    colpas\xF3, demasiado d\xE9bil e insignificante... ahora es mas inutil que eso"
+  texto: "---- FUNCION\xD3,  Pero fue tan pat\xE9tico, sucuerpo no soport\xF3, colpas\xF3,
+    demasiado d\xE9bil e insignificante... ahora es mas inutil que eso"
   tipoNodo: 2
   personaje: {fileID: 0}
   emocion: 0

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Nota_8
   m_EditorClassIdentifier: 
-  texto: "Dia 8--- *ilegible*\n\nPUD\xC9 CREAR UNA PUERTA\nPeros solo funciona de
-    un lado... tal vez... solo tal vez puedo hacer que alguien entre y yo tomar su
-    lugar afuera... si, eso debe funcionar"
+  texto: "Dia 8---  PUD\xC9 CREAR UNA PUERTA!! Peros solo funciona de un lado...
+    tal vez... solo tal vez puedo hacer que alguien entre y yo tomar su lugar afuera... "
   tipoNodo: 2
   personaje: {fileID: 0}
   emocion: 0
