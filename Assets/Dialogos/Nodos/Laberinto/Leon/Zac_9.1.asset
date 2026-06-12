@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Zac_9.1
   m_EditorClassIdentifier: 
   texto: Necesito salir del laberinto
-  tipoNodo: 0
-  personaje: {fileID: 0}
+  tipoNodo: 1
+  personaje: {fileID: 11400000, guid: c6619b6b9c7d5c74e8f5942669da1743, type: 2}
   emocion: 0
   opciones: []
   siguiente: {fileID: 11400000, guid: b00ba87e5d1acc84d8240425e4286dc3, type: 2}

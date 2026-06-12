@@ -4,7 +4,7 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class DialogueManager : MonoBehaviour
-//Hhhh
+//Hhhh fuk qnq
 {
     [Header("Referencias")]
     public PlayerMovement playerMovement;

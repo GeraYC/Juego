@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Nota_1
   m_EditorClassIdentifier: 
-  texto: "Dia 1\n\nHe llegado a este mundo, es muy raro, pero aqu\xED me siento en
+  texto: "Dia 1\nHe llegado a este mundo, es muy raro, pero aqu\xED me siento en
     paz... es muy tranquilo"
   tipoNodo: 2
   personaje: {fileID: 0}

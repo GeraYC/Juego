@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Nota_6
   m_EditorClassIdentifier: 
-  texto: "Dia 236\n\nSoy m\xE1s poderoso de lo que nunca fui... esto habria sido
-    suficiente para detenerlos... pero ya no estoy all\xE1, necesito que paguen por
-    lo que me hicieron"
+  texto: "Dia 236: Soy m\xE1s poderoso de lo que nunca fui... esto habria sido suficiente
+    para detenerlos... pero ya no estoy all\xE1, necesito que paguen por lo que me
+    hicieron"
   tipoNodo: 2
   personaje: {fileID: 0}
   emocion: 0
