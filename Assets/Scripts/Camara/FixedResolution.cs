@@ -13,7 +13,7 @@ public class FixedResolution : MonoBehaviour
 
     void Awake()
     {
-        //Hola
+        //Hola, soy un comentario
         cam = GetComponent<Camera>();
         AplicarAspecto();
     }
