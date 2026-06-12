@@ -88,3 +88,4 @@ public class NPC : MonoBehaviour
 //pipipi
 //parangaricuparangaricuaro
 //pinches npcs
+//ya me canse de escribir comentarios
