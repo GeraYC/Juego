@@ -6,7 +6,7 @@ using UnityEngine;
 public class CaptureSystem : MonoBehaviour
 {
     public GameObject capturePanel;
-
+//Te odio Ubituy
     public Image timeBar;
     public Image escapeBar;
 
