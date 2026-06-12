@@ -85,3 +85,4 @@ public class NPC : MonoBehaviour
 //ya toca ponerle los dialogos a los personajes
 //tu no mete cabra 
 //me voy a pegar un tiro
+//pipipi

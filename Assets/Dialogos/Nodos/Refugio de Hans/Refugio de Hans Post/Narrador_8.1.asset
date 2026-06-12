@@ -15,7 +15,7 @@ MonoBehaviour:
   texto: Si una sombra te agarra, preciona "Y" repetidamente para safarte, perderas
     si tu barra de estamina se baja por completo.
   tipoNodo: 2
-  personaje: {fileID: 0}
+  personaje: {fileID: 11400000, guid: 6b4a0318a4a723e468547b322a065e34, type: 2}
   emocion: 0
   opciones: []
   siguiente: {fileID: 0}
