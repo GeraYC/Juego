@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Nota_5
   m_EditorClassIdentifier: 
-  texto: "Dia 79\nNo hay mucho que hacer aqu\xED, solo puedo seguir haciendo magia...
+  texto: "Dia 79: No hay mucho que hacer aqu\xED, solo puedo seguir haciendo magia...
     todo es muy repetitivo"
   tipoNodo: 2
   personaje: {fileID: 0}
