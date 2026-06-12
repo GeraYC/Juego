@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Lux_9.3-1
   m_EditorClassIdentifier: 
-  texto: 
+  texto: "No lo entiendes ni\xF1o, yo soy quien lleva mas tiempo aqu\xED... y se
+    de lo que es capaz..."
   tipoNodo: 0
-  personaje: {fileID: 0}
-  emocion: 0
+  personaje: {fileID: 11400000, guid: 564e06cbb907a434e84c24424466df52, type: 2}
+  emocion: 3
   opciones: []
-  siguiente: {fileID: 0}
+  siguiente: {fileID: 11400000, guid: 43d435dad8aa39149ad3062ece6e9c69, type: 2}

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Hans_8.5-2.5
   m_EditorClassIdentifier: 
-  texto: 
+  texto: Solo fui el ultimo en llegar antes de ti.
   tipoNodo: 0
-  personaje: {fileID: 0}
+  personaje: {fileID: 11400000, guid: b54a4395748416c42beb5016661a1580, type: 2}
   emocion: 0
   opciones: []
-  siguiente: {fileID: 0}
+  siguiente: {fileID: 11400000, guid: 1c5c703e2ae66a54099257971f9901fc, type: 2}

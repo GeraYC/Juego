@@ -12,9 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Hans_8.5
   m_EditorClassIdentifier: 
-  texto: 
+  texto: "\xBFQu\xE9 necesitas?"
   tipoNodo: 0
-  personaje: {fileID: 0}
+  personaje: {fileID: 11400000, guid: b54a4395748416c42beb5016661a1580, type: 2}
   emocion: 0
-  opciones: []
+  opciones:
+  - texto: "\xBFPor qu\xE9 estas aqu\xED?"
+    siguiente: {fileID: 11400000, guid: acc66ab354a7b5c4b92350c44f99675f, type: 2}
+    flagKey: 
+    flagValue: 
+  - texto: "\xBFCu\xE1nto tiempo llevas aqu\xED?"
+    siguiente: {fileID: 11400000, guid: d31a9bc9d6cee2a49a6f2be2c10010d9, type: 2}
+    flagKey: 
+    flagValue: 
+  - texto: Necesito atravesar el bosque
+    siguiente: {fileID: 11400000, guid: b1282e255e28d7840a4a80a14338a2bc, type: 2}
+    flagKey: 
+    flagValue: 
   siguiente: {fileID: 0}

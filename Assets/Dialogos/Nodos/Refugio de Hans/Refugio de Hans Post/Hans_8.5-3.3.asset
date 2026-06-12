@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Hans_8.5-3.3
   m_EditorClassIdentifier: 
-  texto: 
+  texto: Es un laberinto, lleno de sombras... a las cuales no debes acercarte
   tipoNodo: 0
-  personaje: {fileID: 0}
+  personaje: {fileID: 11400000, guid: b54a4395748416c42beb5016661a1580, type: 2}
   emocion: 0
   opciones: []
-  siguiente: {fileID: 0}
+  siguiente: {fileID: 11400000, guid: bf59a7a52a134454c80fbe7073e88418, type: 2}

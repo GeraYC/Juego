@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Hans_8.5-2.4
   m_EditorClassIdentifier: 
-  texto: 
+  texto: "Puedo llevar 1 o 2 a\xF1os... hasta 3 siglos... la verdad eso no importa...
+    ni importar\xE1"
   tipoNodo: 0
-  personaje: {fileID: 0}
-  emocion: 0
+  personaje: {fileID: 11400000, guid: b54a4395748416c42beb5016661a1580, type: 2}
+  emocion: 3
   opciones: []
-  siguiente: {fileID: 0}
+  siguiente: {fileID: 11400000, guid: 3d57637fceba97d4292d518767a39682, type: 2}

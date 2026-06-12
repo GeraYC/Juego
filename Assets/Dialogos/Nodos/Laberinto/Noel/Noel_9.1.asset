@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Noel_9.1
   m_EditorClassIdentifier: 
-  texto: 
+  texto: "hm... Ni\xF1o, \xBFQu\xE9 haces aqu\xED?"
   tipoNodo: 0
-  personaje: {fileID: 0}
+  personaje: {fileID: 11400000, guid: e71162cf0aad1c1459487cb1e47d5da3, type: 2}
   emocion: 0
   opciones: []
-  siguiente: {fileID: 0}
+  siguiente: {fileID: 11400000, guid: 84cd459643d6b2c4ca2b8132775e09a4, type: 2}

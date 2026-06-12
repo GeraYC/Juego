@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48a9aa73157db64c959d15bf3431869, type: 3}
   m_Name: Zac_8.6
   m_EditorClassIdentifier: 
-  texto: 
-  tipoNodo: 0
-  personaje: {fileID: 0}
+  texto: ...
+  tipoNodo: 1
+  personaje: {fileID: 11400000, guid: c6619b6b9c7d5c74e8f5942669da1743, type: 2}
   emocion: 0
   opciones: []
-  siguiente: {fileID: 0}
+  siguiente: {fileID: 11400000, guid: 61c4b67c503609c4090126ea08aafc65, type: 2}
