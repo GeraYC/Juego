@@ -84,3 +84,4 @@ public class NPC : MonoBehaviour
 //ñiñiñi poner mensajes a lo pendejo
 //ya toca ponerle los dialogos a los personajes
 //tu no mete cabra 
+//me voy a pegar un tiro
